@@ -8,7 +8,7 @@ export default function Footer() {
             <p className="two">Phone number    |   Email</p>
           
           
-            <p className="four">+947634568765  | vehilerent@gmail.com</p>
+            <p className="four">+947634568765  | vehilerent1@gmail.com</p>
          
  
         </div>
