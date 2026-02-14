@@ -15,7 +15,7 @@ export default function Login() {
     e.preventDefault();
 
     try {
-      const res = await axios.post('http://localhost:8080/api/users/login', { name: username, password })
+      const res = await axios.post('http://13.63.57.40/api/users/login', { name: username, password })
       if (res.data === "Login successful!") {
        
         localStorage.setItem('username', username.trim());
